@@ -4,7 +4,7 @@
 a simple http server for file upload/download
 
 
-## server start:
+## server start on port 8080 and root directory /tmp/:
 
 ```console
 python fileserver.py -p 8080 -d /tmp/
