@@ -4,13 +4,13 @@
 a simple http server for file upload/download
 
 
-## server start on port 8080 and root directory /tmp/:
+### server start on port 8080 and root directory /tmp/:
 
 ```console
 python fileserver.py -p 8080 -d /tmp/
 ```
 
-## client put file:
+### client put file:
 
 put anyfile to /tmp/anyfile:
 ```console
@@ -25,7 +25,7 @@ put anyfile to /tmp/dir1/file1:
 curl -T anyfile http://127.0.0.1:8080/dir1/file1
 ```
 
-## client get file:
+### client get file:
 ```console
 curl http://127.0.0.1:8080/dir1/file1 -o file1
 ```
